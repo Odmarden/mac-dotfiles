@@ -1,0 +1,15 @@
+[flavor]
+use = "tokyo-night"
+
+[manager]
+# This is the key that forces the main window to be transparent
+# It overrides whatever color the flavor tries to use
+container = { bg = "reset" }
+
+[status]
+# This makes the bottom status bar transparent
+container = { bg = "reset" }
+
+[select]
+# Makes selection popups transparent
+container = { bg = "reset" }

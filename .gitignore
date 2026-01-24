@@ -1,0 +1,6 @@
+# Neovim swap and undo files
+nvim/.netrwhist
+nvim/undo/
+nvim/backups/
+.DS_Store
+

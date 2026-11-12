@@ -1,11 +1,17 @@
+
+
 # Navigation
 alias ..="cd .."
 alias ...="cd ../.."
+alias con="cd ~/.config
+ls"
+
 
 # Shortcuts for your Tokyo Night apps
 alias v="nvim"
 alias nv="nvim"
 alias mc="musikcube"
+
 
 # Use 'bat' instead of 'cat' if you installed it for Tokyo Night colors
 alias cat="bat"
@@ -17,6 +23,12 @@ alias ll="ls -lah"
 # Quick edit and reload of zsh config
 alias zconf="nvim ~/.zshrc"
 alias zreload="source ~/.zshrc"
+
+alias c="clear"
+alias ff="fastfetch"
+alias y="yazi"
+alias gh="cd ~/mac-dotfiles
+ls"
 
 eval "$(starship init zsh)"
 
@@ -33,3 +45,22 @@ bindkey '^I' autosuggest-accept
 zstyle ':completion:*' menu select
 
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Added by Antigravity
+export PATH="/Users/daniel/.antigravity/antigravity/bin:$PATH"
+
+export PATH="/Users/daniel/.local/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/daniel/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Grunden AI via Claude Code (LiteLLM proxy)
+#export ANTHROPIC_BASE_URL="http://localhost:4000"
+#export ANTHROPIC_API_KEY=""
+#export ANTHROPIC_MODEL="glm-5.3-flash"
+
+# Grunden AI (OpenAI-compatible)
+#export OPENAI_BASE_URL="https://api.grunden.ai/v1"
+#export OPENAI_MODEL="glm-5.3-flash"
+#export OPENAI_API_KEY=""
+alias python="python3"

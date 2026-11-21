@@ -47,12 +47,12 @@ zstyle ':completion:*' menu select
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Added by Antigravity
-export PATH="/Users/daniel/.antigravity/antigravity/bin:$PATH"
+export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
 
-export PATH="/Users/daniel/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Added by Antigravity IDE
-export PATH="/Users/daniel/.antigravity-ide/antigravity-ide/bin:$PATH"
+export PATH="$HOME/.antigravity-ide/antigravity-ide/bin:$PATH"
 
 # Grunden AI via Claude Code (LiteLLM proxy)
 #export ANTHROPIC_BASE_URL="http://localhost:4000"
